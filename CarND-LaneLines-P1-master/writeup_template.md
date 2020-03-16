@@ -21,12 +21,12 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 The pipeline is very similar to what is described in the lecture. It consists of 
-(1) grayscaling the image, 
-(2) Gaussian blur of the image
-(3) Canny detection of the relevant edges.
-(4) Remove the edges from portion of the screen which are not likely to be in the current lane.
-(5) Identifying the straight lines in hough space, where only those lines with more than the threshold points are taken in to consideration. Also, this step includes the function to draw lines where i had added a few customizations for averaging & extrapolation. Averaging is done based on filtering out lines with relevant slopes for the left & right lines to filter out the noise.  This is followed by tracking the lower most & upper most points of the lane for the left & right edges. Once these points are identified, I calculate the slope, so i can extend the line to the bottom most part of the image.
-(6) The last step is overlapping the identified lane lines on top of the image (same as in the lecture. no change here).
+#(1) grayscaling the image, 
+#(2) Gaussian blur of the image
+#(3) Canny detection of the relevant edges.
+#(4) Remove the edges from portion of the screen which are not likely to be in the current lane.
+#(5) Identifying the straight lines in hough space, where only those lines with more than the threshold points are taken in to consideration. Also, this step includes the function to draw lines where i had added a few customizations for averaging & extrapolation. Averaging is done based on filtering out lines with relevant slopes for the left & right lines to filter out the noise.  This is followed by tracking the lower most & upper most points of the lane for the left & right edges. Once these points are identified, I calculate the slope, so i can extend the line to the bottom most part of the image.
+#(6) The last step is overlapping the identified lane lines on top of the image (same as in the lecture. no change here).
 
 Here is a sample image, with the edges identified and the final image with the identified lanes.
 ![alt text][image1]
