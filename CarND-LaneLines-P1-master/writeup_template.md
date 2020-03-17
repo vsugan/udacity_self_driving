@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 [image2]: ./test_images_edges/challenge_img_5.jpg
 [image3]: ./test_images_output/challenge_img_5.jpg.jpg
 [image4]: ./test_images_output/solidYellowLeft.jpg.jpg
-
+[challengevideo]: ./test_videos_output/challenge.mp4
 ---
 
 ### Reflection
@@ -32,6 +32,8 @@ The pipeline is very similar to what is described in the lecture. It consists of
 Here is a sample image, with the lanes identified and overlapped on the original image.
 ![alt text][image4]
 
+Here is challenge video result. You can see that the lanes are identified most of the time.
+![alt text][challengevideo]
 
 ### 2. Identify potential shortcomings with your current pipeline
 
